@@ -21,3 +21,10 @@ Submissions are evaluated using TM-score (0.0–1.0, higher is better), which me
 
 For each RNA sequence in the test set, you must predict five 3D structures.
 Your notebook should read test_sequences.csv and output submission.csv, which contains the x, y, z coordinates of the C1' atom for every residue in each of the five predicted structures.
+```csv
+ID,resname,resid,x_1,y_1,z_1,... x_5,y_5,z_5
+R1107_1,G,1,-7.561,9.392,9.361,... -7.301,9.023,8.932
+R1107_2,G,1,-8.02,11.014,14.606,... -7.953,10.02,12.127
+etc.
+```
+
