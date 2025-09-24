@@ -29,3 +29,11 @@ etc.
 ```
 You must submit five sets of coordinates.
 
+## Data and model
+Train and test dataset: [link](https://www.kaggle.com/competitions/stanford-rna-3d-folding/data)
+DRfold2 model: [link](https://github.com/leeyang/DRfold2)
+Protenix model: [link](https://github.com/bytedance/Protenix)
+
+## Citation
+Shujun He, CASP16 organizers, CASP16 RNA experimentalists, RNA-Puzzles consortium, VFOLD team, Rachael Kretsch, Alissa Hummer, Andrew Favor, Walter Reade, Maggie Demkin, Rhiju Das, et al. Stanford RNA 3D Folding. https://kaggle.com/competitions/stanford-rna-3d-folding, 2025. Kaggle.
+
