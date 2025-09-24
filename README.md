@@ -16,3 +16,8 @@ The goal of this competition is to build machine learning models that predict th
 ## Evaluation
 
 Submissions are evaluated using TM-score (0.0–1.0, higher is better), which measures structural similarity between predicted and experimental RNA structures. Predictions are aligned with reference structures using US-align in a sequence-independent manner. For each RNA sequence, you must submit 5 predicted structures, and the best TM-score among them is used. The final score is the average best-of-5 TM-score across all targets. If multiple experimental structures exist, the best score against them is considered.
+
+## Submission
+
+For each RNA sequence in the test set, you must predict five 3D structures.
+Your notebook should read test_sequences.csv and output submission.csv, which contains the x, y, z coordinates of the C1' atom for every residue in each of the five predicted structures.
