@@ -13,6 +13,12 @@ In this project, we predict RNA 3D structures from RNA sequences using an ensemb
 
 ### 1 Preparation for DRfold2
 
+In this project, we initialize DRfold2 model and introduce physics-based scoring to select the most plausible structures from DRfold2 predictions. 
+
+* Energy Scoring<br>
+  Implements simplified biophysical scoring terms to evaluate RNA structures:<br>
+  ・
+
 ### 2 Preparation for Protenix
 
 This project performs Protenix runner initialization mainly.
