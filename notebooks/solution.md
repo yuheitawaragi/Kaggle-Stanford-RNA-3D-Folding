@@ -17,7 +17,13 @@ In this project, we initialize DRfold2 model and introduce physics-based scoring
 
 * Energy Scoring<br>
   Implements simplified biophysical scoring terms to evaluate RNA structures:<br>
-  ・
+   ・ Van der Waals penalty (Lennard-Jones-like repulsion/attraction).<br>
+   ・ Hydrogen bond score (distance-based).<br>
+   ・ Electrostatic penalty (base-specific partial charges).<br>
+   ・ Bond angles and torsion angles (geometric stability).<br>
+   ・ Hydrogen bond directionality (penalizes non-linear H-bonds).<br>
+  A weighted sum of these terms gives a total energy score for each structure candidate.
+  
 
 ### 2 Preparation for Protenix
 
