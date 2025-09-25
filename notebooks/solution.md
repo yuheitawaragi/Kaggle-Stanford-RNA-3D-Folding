@@ -13,7 +13,7 @@ In this project, we predict RNA 3D structures from RNA sequences using an ensemb
 
 ### 1 Preparation for DRfold2
 
-In this project, we initialize DRfold2 model and introduce physics-based scoring to select the most plausible structures from DRfold2 predictions. 
+In this project, we initialize DRfold2 model and introduce physics-based scoring to select the top 3 energetically stable structures from the DRfold2 predictions. 
 
 * Energy Scoring<br>
   Implements simplified biophysical scoring terms to evaluate RNA structures:<br>
