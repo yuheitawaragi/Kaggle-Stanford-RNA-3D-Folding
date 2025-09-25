@@ -11,11 +11,11 @@ Accurate predictions will deepen our understanding of RNA’s role in biology an
 
 In this project, we predict RNA 3D structures from RNA sequences using an ensemble of DRfold2 and Protenix models.
 
-###1 Preparation for DRfold2
+### 1 Preparation for DRfold2
 
-###2 Preparation for Protenix
+### 2 Preparation for Protenix
 
-###3 Prediction using an ensemble of DRfold2 and Protenix
+### 3 Prediction using an ensemble of DRfold2 and Protenix
 
 This script performs RNA 3D structure prediction using an ensemble of DRfold2 and Protenix.
 
