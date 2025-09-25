@@ -15,7 +15,13 @@ In this project, we predict RNA 3D structures from RNA sequences using an ensemb
 
 ### 2 Preparation for Protenix
 
-### 3 Prediction using an ensemble of DRfold2 and Protenix
+### 3 Sequence Length Handling
+
+* To avoid out-of-memory (OOM) errors, we truncate sequences to a maximum length (MAX_LENGTH = 900).
+* During prediction, only the first 900 residues have predicted 3D coordinates.
+* For residues beyond MAX_LENGTH, we still keep them in the output, but their coordinates are set to zeros (0.0).
+
+### 4 Prediction using an ensemble of DRfold2 and Protenix
 
 This script performs RNA 3D structure prediction using an ensemble of DRfold2 and Protenix.
 
