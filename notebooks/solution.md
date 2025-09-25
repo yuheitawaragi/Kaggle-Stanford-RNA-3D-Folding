@@ -23,6 +23,9 @@ In this project, we initialize DRfold2 model and introduce physics-based scoring
    ・ Bond angles and torsion angles (geometric stability).<br>
    ・ Hydrogen bond directionality (penalizes non-linear H-bonds).<br>
   A weighted sum of these terms gives a total energy score for each structure candidate.
+
+* DRfold2 Model Initialization<br>
+  Loads pretrained DRfold2 model (RNA2nd + MSA2XYZ) from checkpoints.
   
 
 ### 2 Preparation for Protenix
