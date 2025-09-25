@@ -11,6 +11,7 @@ Accurate predictions will deepen our understanding of RNA’s role in biology an
 
 In this project, we predict RNA 3D structures from RNA sequences using an ensemble of DRfold2 and Protenix models.<br>
 DRfold2 is a deep learning model for RNA 3D structure prediction. It leverages the RNA Composite Language Model (RCLM) to effectively capture co-evolutionary signals from unsupervised sequence data.[link](https://github.com/leeyang/DRfold2)<br>
+Protenix is a trainable, open-source model that reproduces AlphaFold 3, a structure prediction model for RNA and proteins, on PyTorch.[link](https://github.com/bytedance/Protenix)
 
 
 
