@@ -21,6 +21,7 @@ This project performs Protenix runner initialization mainly.
 * Loads Protenix configurations (base, data, inference) and updates them with:<br>
        ・ Number of diffusion cycles and sampling steps.<br>
        ・ Path to pretrained checkpoint (model_v0.2.0.pt).
+* Returns an InferenceRunner object and its configs, which are used for structure prediction.
 
 ### 3 Sequence Length Handling
 
