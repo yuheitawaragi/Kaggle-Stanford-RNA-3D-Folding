@@ -1,8 +1,8 @@
-# Kaggle-Stanford-RNA-3D-Folding
+# 🥉Kaggle-Stanford-RNA-3D-Folding Bronze
 
-Kaggle competition solution<br>
-Public Score:<br> 
-Private Score:<br>
+Kaggle competition bronze (123/1516) solution<br>
+Public Score: 0.38373<br> 
+Private Score: 0.41652<br>
 This repository contains my solution for the Kaggle competition "Stanford RNA 3D Folding".The goal of the competition is to develop machine learning models that can predict the 3D structure of RNA molecules from their sequences, thereby advancing our understanding of biological processes and contributing to progress in medicine and biotechnology.
 
 ## Competition overview
